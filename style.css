@@ -62,11 +62,15 @@ section .two {
  main {
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-top: 50%;
+    margin: 30px;
     
  }
  main .left {
     display: grid;
     grid-template-rows: repeat(5,20%);
+    width: 80%;
+    margin-left: 100px;
 
  }
 main .left .option {
@@ -75,8 +79,25 @@ main .left .option {
 }
 .option img { 
     height: 50px;
+    margin: auto;
+    
 }
 /* main .left .option img {
     width: 20%;
     height: 50%;
 } */
+main .option {
+    height: 10vh;
+}
+main .left .option div {
+margin: auto;
+}
+main .right img {
+    margin-left: 15%;
+    width: 80%;
+    border-radius: 10px;
+}
+.properties {
+    margin-top: 100px;
+    margin-left: 100px;
+}
