@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&family=Playfair+Display&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'EB Garamond', serif;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 10px 20px;
+}
+nav li:first-child img {
+    height: 80px;
+}
+nav li:first-child {
+    margin-right: auto;
+}
+nav li:last-child {
+    margin-left: auto;
+}
+nav li button {
+    padding: 7px 30px;
+    background-color: black;
+    border: 0px;
+    border-radius: 20px;
+    color: white;
+}
