@@ -101,3 +101,65 @@ main .right img {
     margin-top: 100px;
     margin-left: 100px;
 }
+.properties h1 {
+    margin-bottom: 50px;
+
+}
+.properties .cards {
+display: grid;
+grid-template-columns: repeat(2, 50%);
+}
+.properties .card {
+    display: flex;
+    background-color: rgb(241, 237, 237);
+    height: 300px;
+    width: 80%;
+    border-radius: 3%;
+}
+.properties .card img {
+    width: 50%;
+}
+.properties .card .option {
+    display: grid;
+    grid-template-rows: repeat(5, 20%);
+}
+.properties .card .option h1 {
+    height: fit-content;
+    font-size: 100%;
+    margin: 30px;
+}
+.properties .card .option div {
+    display: flex;
+    align-items: center;
+}
+.properties .card .option div p {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.properties .card .option div img {
+    height: 30px;
+    width: 30px;
+    margin-left: 20%;
+}
+.customers {
+    margin-top: 200px;
+}
+.customers h1 {
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.customers .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+.customers .cards .left img {
+    height: 50%;
+    border-radius: 10%;
+    margin-left: 100px;
+}
+.customers .cards .right  {
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
