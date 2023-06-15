@@ -6,6 +6,10 @@
     font-family: 'EB Garamond', serif;
     overflow-x: hidden;
 }
+nav {
+    border: 1px solid;
+    background-color: beige;
+}
 nav ul {
     display: flex;
     flex-direction: row;
@@ -80,6 +84,7 @@ main .left .option {
 .option img { 
     height: 50px;
     margin: auto;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
     
 }
 /* main .left .option img {
@@ -96,6 +101,7 @@ main .right img {
     margin-left: 15%;
     width: 80%;
     border-radius: 10px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
 .properties {
     margin-top: 100px;
@@ -157,9 +163,91 @@ grid-template-columns: repeat(2, 50%);
     height: 50%;
     border-radius: 10%;
     margin-left: 100px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
 .customers .cards .right  {
     display: flex;
     align-items: center;
     height: 50%;
 }
+.news {
+    margin-top: 10px;
+}
+.news h2 {
+    margin-left: 100px;
+}
+.news .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.news .cards .card img {
+    width: 85%;
+    border-radius: 10%;
+    height: 300px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.news .cards .card .content {
+    border-radius: 5%;
+    background-color: white;
+    transform: translate(20%, -50%);
+    width: 70%;
+    padding: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.news .cards .card .content .head  {
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    margin-top: 100px;
+    background-color: gray;
+    color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.footer .header {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .header button {
+    margin-right: 185px;
+    width: 200px;;
+    padding: 5px 5px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.footer .content {
+   margin-top: 50px;
+   margin-left: 50px;
+   display: grid;
+   grid-template-columns: repeat(4, 25%);
+}
+.footer .content li {
+    margin-bottom: 10px;
+
+}
+.footer .content li:first-child {
+    font-size: 25px;
+}
+.footer .copyright {
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .copyright p {
+    margin-right: 100px;
+}
+.footer .copyright i {
+    font-size: 25px;
+}
+
